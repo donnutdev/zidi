@@ -8,6 +8,9 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("images/background.png");
+	background-position: top;
+	background-size: cover;
 	position: relative;
 }
 
@@ -36,7 +39,7 @@ nav img{
 
 .nav-links ul li a{
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 14pt;
 	font-family: 'Roboto', sans-serif;
 }
@@ -46,7 +49,7 @@ nav img{
 	display: block;
 	width: 0%;
 	height: 2px;
-	background: #000000;
+	background: #FFFFFF;
 	margin: auto;
 	transition: 0.5s;
 }
@@ -55,5 +58,29 @@ nav img{
 	width: 100%;
 }
 
+.text-box{
+	margin-top: 60px;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-bottom: 60px;
+}
 
+.text-box h1, p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.text-box a{
+	color: #E70003;
+}
+
+.text-box p{
+	font-size: 11pt;
+	color: #FFFFFF;
+}
+
+.text-box h1{
+	font-size: 23pt;
+	color: white;
+}
 
